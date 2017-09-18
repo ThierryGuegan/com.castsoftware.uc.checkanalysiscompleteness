@@ -162,6 +162,10 @@ languages = \
             ".nawk"
         ]
     },
+    "BalsamiqMockups": {
+        "type": "programming",
+        "primary_extension": ".bmml",
+    },
     "Batchfile": {
         "type": "programming",
         "group": "Shell",
@@ -420,6 +424,12 @@ languages = \
         "extensions": [
             ".di"
         ]
+    },
+    # CAST-extraction format
+    "DB": {
+        "type": "programming",
+        "color": "#fcd46d",
+        "primary_extension": ".src"
     },
     "D-ObjDump": {
         "type": "data",
@@ -1023,10 +1033,7 @@ languages = \
         "aliases": [
             "mumps"
         ],
-        "primary_extension": ".mumps",
-        "extensions": [
-            ".m"
-        ]
+        "primary_extension": ".mumps"
     },
     "Makefile": {
         "aliases": [
@@ -1719,6 +1726,10 @@ languages = \
         "wrap": True,
         "primary_extension": ".textile"
     },
+    "Tag Library Descriptor": {
+        "type": "programming",
+        "primary_extension": ".tld",
+    },
     "Turing": {
         "type": "programming",
         "color": "#45f715",
@@ -1817,6 +1828,13 @@ languages = \
         "lexer": "C",
         "primary_extension": ".xc"
     },
+    "XCode": {
+        "type": "programming",
+        "primary_extension": ".xcconfig",
+        "extensions": [
+            ".pbxproj"
+        ]
+    },              
     "XML": {
         "type": "markup",
         "ace_mode": "xml",
